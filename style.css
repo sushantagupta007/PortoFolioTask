@@ -309,8 +309,57 @@ footer {
     padding-left: 2rem;
     padding-top: 0rem;
   }
-  #myWorkTitle {
-    text-align: center;
+  .myWorkTitle {
     font-size: 1rem;
+  }
+  .myWorkCardPara {
+    font-weight: normal;
+    line-height: 1rem;
+  }
+  #proudofContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #proudofContainerLeftDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0rem;
+    margin-top: 0rem;
+  }
+  .contentAreaDiv {
+    padding: 0px;
+
+    margin-bottom: 0rem;
+  }
+  #contentArea {
+    padding: 4px;
+    margin-top: 0.5rem;
+  }
+  #proudofContainerRightDiv {
+    display: flex;
+    justify-content: flex-start;
+
+    margin-top: 2rem;
+  }
+  #proudofContainerRightDiv h1 {
+    font-size: 2rem;
+    padding: 0px;
+  }
+  #hustleContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0rem;
+  }
+  #hustleContainer h1 {
+    font-size: 2rem;
+  }
+  #hustleContainerRightDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0rem;
+  }
+  .leftFlexRight {
+    padding-top: 0em;
+    padding-bottom: 0rem;
   }
 }
