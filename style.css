@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#navContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 50%;
+  padding-left: 10rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#navContainer li {
+  list-style-type: none;
+}
+
+#profilePicContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#profileDescription h1 {
+  font-size: 3.2rem;
+  margin-bottom: 10px;
+}
+
+#profileDescription {
+  padding: 5rem 16rem 0rem 10rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#profileDescription p {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin-top: 0px;
+}
+
+#profileDescription button {
+  text-transform: capitalize;
+  background-color: rgb(25, 144, 21);
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.8rem 1rem;
+  width: 10rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0px;
+}
+
+#profileDescription button:hover {
+  box-shadow: 5px 5px;
+  text-decoration: underline;
+  background-color: rgba(25, 144, 21, 0.8);
+}
+
+#profilePicture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  z-index: 1;
+}
+
+#eductionContainer {
+  display: grid;
+  grid-template-columns: 0.6fr 1fr;
+}
+#eductionContainerLeftColumn {
+  background-image: url("./image/bg.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-left: 10rem;
+  background-size: 23rem;
+}
+
+#eductionContainerLeftColumn h1 {
+  font-size: 6rem;
+  text-transform: capitalize;
+}
+#eductionContainerRightColumn {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+}
+
+#eductionContainerRightColumn h2 {
+  color: rgba(25, 144, 21, 0.8);
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+#eductionContainerRightColumn > div + p {
+  font-weight: bold;
+}
+
+.educationContainerTitle {
+  font-weight: bold;
+}
+
+#myWorkTitle {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#myWorkDes {
+  text-align: center;
+  font-weight: bold;
+}
+
+#myWorkCardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  padding-left: 10rem;
+  padding-top: 5rem;
+}
+
+.myWorkCard {
+  width: 150px;
+  height: 150px;
+  position: relative;
+
+  border: 1px solid black;
+}
+
+.myWorkCardBox {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 10;
+  left: 0;
+  background-repeat: no-repeat;
+}
+
+.stack-top {
+  z-index: 9;
+  margin: 0px 20px;
+  top: 0;
+  bottom: 0;
+  width: 10%;
+  height: 15%;
+}
+
+.myWorkTitle {
+  font-size: 1.4rem;
+}
+.myWorkCardPara {
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+.myWorkButton {
+  color: rgba(25, 144, 21);
+  font-weight: bold;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+.myWorkButton:hover {
+  text-decoration: underline;
+}
+
+#proudofContainer {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+}
+
+#proudofContainerLeftDiv {
+  display: grid;
+  grid-template-columns: 0.6fr 0.9fr;
+  padding-left: 10rem;
+  margin-top: 2rem;
+}
+
+#proudofContainerLeftDiv p {
+  line-height: 1.5rem;
+}
+#contentArea {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  z-index: 1;
+  padding: 6px 0px;
+  margin-top: 2rem;
+}
+
+#contentArea:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 2px;
+  width: 15%;
+  /* or 100px */
+  border-top: 5px solid rgba(25, 144, 21);
+}
+.contentAreaDiv {
+  padding: 0px 16.5rem 0px 0px;
+
+  margin-bottom: 2rem;
+}
+#proudofContainerRightDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  margin-top: 2rem;
+}
+#proudofContainerRightDiv h1 {
+  font-size: 6rem;
+
+  padding: 0px 2rem;
+}
+
+#proudofContainerRightDivInsideDiv {
+  width: 70%;
+  background-color: rgb(83, 184, 79);
+  color: white;
+}
+
+#hustleContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-right: 10rem;
+}
+
+#hustleContainer {
+  padding-left: 10rem;
+}
+#hustleContainer h1 {
+  font-size: 6rem;
+  color: rgb(83, 184, 79);
+  margin-bottom: 0px;
+}
+
+#hustleContainerRightDiv {
+  display: grid;
+  grid-template-columns: 1.05fr 0.7fr;
+  padding: 0px 5rem;
+}
+.flexRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftFlexRight {
+  padding-top: 2em;
+  padding-bottom: 6rem;
+}
+.imageWidth {
+  width: 100%;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#footerleftDiv {
+  width: 60%;
+  background-color: rgb(83, 184, 79);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 3rem;
+}
+#footerleftDiv h2 {
+  font-size: 4rem;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  #profilePicContainer {
+    grid-template-columns: 1fr;
+  }
+
+  #eductionContainer {
+    grid-template-columns: 1fr;
+  }
+  #profileDescription {
+    padding: 0px;
+  }
+
+  #eductionContainerLeftColumn h1 {
+    font-size: 2rem;
+    text-transform: capitalize;
+  }
+  #eductionContainerLeftColumn {
+    background-position: left;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+  }
+  #myWorkCardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 0rem;
+    padding-left: 2rem;
+    padding-top: 0rem;
+  }
+  #myWorkTitle {
+    text-align: center;
+    font-size: 1rem;
+  }
+}
