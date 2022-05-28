@@ -346,12 +346,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
   }
-  #proudofContainerLeftDiv {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding-left: 0rem;
-    margin-top: 0rem;
-  }
+
   #proudofContainerLeftDiv > p {
     margin: 0rem;
   }
