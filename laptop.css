@@ -1,0 +1,45 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #profileDescription {
+    padding: 5rem 0rem 0rem 0rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #proudofContainerLeftDiv {
+    grid-gap: 1rem;
+    padding-left: 5rem;
+  }
+  .contentAreaDiv {
+    padding: 0px 0rem 0px 0px;
+  }
+  #hustleContainer {
+    padding-left: 10rem;
+  }
+
+  #hustleContainerRightDiv {
+    display: grid;
+    grid-template-columns: 1.05fr 0.7fr;
+    padding: 0px 0rem;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  #proudofContainerLeftDiv {
+    grid-gap: 1rem;
+    padding-left: 10rem;
+  }
+  .contentAreaDiv {
+    padding: 0px 0rem 0px 0px;
+  }
+  #hustleContainer {
+    padding-left: 10rem;
+  }
+
+  #hustleContainerRightDiv {
+    padding: 0px 0rem;
+  }
+  #profileDescription {
+    padding: 5rem 0rem 0rem 10rem;
+  }
+}
