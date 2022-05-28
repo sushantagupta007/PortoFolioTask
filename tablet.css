@@ -1,0 +1,166 @@
+@media screen and (min-width: 426px) and (max-width: 769px) {
+  #navContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    width: 75%;
+  }
+  #profilePicContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+  #profileDescription h1 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+  }
+  #eductionContainerLeftColumn {
+    background-image: url("./image/bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 10rem;
+    background-size: cover;
+  }
+  #eductionContainer {
+    grid-template-columns: 1fr;
+  }
+  #eductionContainerLeftColumn h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  #eductionContainerLeftColumn {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0rem;
+    margin-top: 0.5rem;
+    background-size: cover;
+  }
+
+  #eductionContainerRightColumn div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #profileDescription {
+    padding: 0px;
+  }
+  .BrTagStyle {
+    display: none;
+  }
+  #profilePicture {
+    padding: 1rem;
+    width: 280px;
+  }
+  .profile-pic {
+    width: 100%;
+  }
+
+  #myWorkCardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0rem;
+    padding-left: 5rem;
+    padding-top: 0rem;
+  }
+  .myWorkTitle {
+    font-size: 1rem;
+  }
+  .myWorkCardPara {
+    font-weight: normal;
+    line-height: 1rem;
+  }
+  #proudofContainer {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+  }
+  #proudofContainerLeftDiv {
+    display: grid;
+    grid-template-columns: 0.6fr 0.9fr;
+    grid-gap: 2rem;
+    margin-top: 2rem;
+  }
+  .proudofContainerLeftDivCGPA {
+    height: 100px;
+    width: 100%;
+  }
+  #proudofContainerLeftDiv > p {
+    margin: 0rem;
+  }
+  #proudofContainerRightDiv h1 {
+    font-size: 6rem;
+    padding: 0px 2rem;
+  }
+  #proudofContainerRightDivInsideDiv {
+    width: 100%;
+  }
+  #contentArea:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 4px;
+    width: 15%;
+    /* or 100px */
+    border-top: 5px solid rgba(25, 144, 21);
+  }
+  .contentAreaDiv {
+    padding-right: 0rem;
+    margin-bottom: 4rem;
+  }
+
+  #proudofContainer {
+    margin-top: 1rem;
+  }
+  #proudofContainerRightDiv {
+    display: flex;
+    justify-content: end;
+
+    margin-top: 2rem;
+  }
+  #proudofContainerRightDiv h1 {
+    font-size: 2rem;
+    padding: 0px;
+  }
+  #hustleContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0rem;
+  }
+  #hustleContainer h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  #hustleContainer p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #hustleContainerRightDiv {
+    display: grid;
+    grid-template-columns: 1.05fr 0.7fr;
+    padding: 0px 5rem;
+  }
+
+  .leftFlexRight {
+    padding-top: 0em;
+    padding-bottom: 0rem;
+  }
+  .flexRight {
+    margin-top: 0rem;
+  }
+  .proudofContainerLeftDivCGPA {
+    height: 40px;
+  }
+  .proudofContainerLeftDivCertificate {
+    height: 80px;
+  }
+  .proudofContainerLeftDivProject {
+    margin-top: 0rem;
+  }
+  footer {
+    grid-template-columns: 1fr 1fr;
+  }
+  #footerrightDiv {
+    justify-content: end;
+    align-items: flex-end;
+  }
+}

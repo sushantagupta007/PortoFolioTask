@@ -9,7 +9,9 @@
 
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="simple-masonry.css" />
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="mobile.css">
+
     <script src="https://kit.fontawesome.com/9e0e31f0fa.js" crossorigin="anonymous"></script>
 
 </head>
@@ -55,14 +57,16 @@
                 <div>
                     <h2> Aug 2019- June 2020</h2>
                     <p class="educationContainerTitle"> Sunbeam Sr. Secondary School </p>
-                    <p> I've bagged a lot of prizes both in Academics & Extracurriculars. These <br />
+                    <p> I've bagged a lot of prizes both in Academics & Extracurriculars. These <span
+                            class="BrTagStyle"> <br /> </span>
                         are some of the achievements I'm most proud of.
                     </p>
                 </div>
                 <div>
                     <h2> Aug 2019- June 2020</h2>
                     <p class="educationContainerTitle"> Sunbeam Sr. Secondary School </p>
-                    <p> I've bagged a lot of prizes both in Academics & Extracurriculars. These <br />
+                    <p> I've bagged a lot of prizes both in Academics & Extracurriculars. These <span
+                            class="BrTagStyle"><br /> </span>
                         are some of the achievements I'm most proud of.
                     </p>
                 </div>
@@ -71,7 +75,7 @@
         <section id="myWork">
             <h1 id="myWorkTitle"> My Work </h1>
             <p id="myWorkDes"> I love coding & ever since I took up ProGrad Junior, Ive built some cool projects. I’ve
-                also <br />picked up HTML, CSS & JavaScript”</p>
+                also <br /> picked up HTML, CSS & JavaScript”</p>
             <div id="myWorkCardContainer">
                 <!-- First Row -->
                 <div>
@@ -80,7 +84,8 @@
                         <div class="myWorkCardBox stack-top" style="background: blue;"></div>
                     </div>
                     <h3 class="myWorkTitle"> Recipe Web Page </h3>
-                    <p class="myWorkCardPara"> I built a Dalgona Coffee Recipe <br />
+                    <p class="myWorkCardPara"> I built a Dalgona Coffee <br />
+                        </span> Recipe
                         page using HTML & CSS.</p>
                     <button class="myWorkButton" type="button"> SEE PROJECT </button>
                 </div>
@@ -100,7 +105,7 @@
                         <div class="myWorkCardBox stack-top" style="background: blue;"></div>
                     </div>
                     <h3 class="myWorkTitle"> Guess the Number </h3>
-                    <p class="myWorkCardPara"> I built guess the number game <br>
+                    <p class="myWorkCardPara"> I built guess the number game <br class="lineBreakTabletDevice">
                         using JavaScript.</p>
                     <button class="myWorkButton" type="button"> SEE PROJECT </button>
                 </div>
@@ -149,14 +154,17 @@
         </section>
         <section id="proudofContainer">
             <div id="proudofContainerLeftDiv">
-                <p id="contentArea">Topped my class with a CPGA of 9.2. </p>
+                <div class="proudofContainerLeftDivCGPA">
+                    <p id="contentArea">Topped my class with a CPGA of 9.2. </p>
+                </div>
+
                 <div class="contentAreaDiv">
                     <p id="contentArea">Was awarded ‘Best Performer of
                         the Batch 2018’ for consistent
                         performance in academic for 3
                         consequetive years. </p>
                 </div>
-                <div>
+                <div class="proudofContainerLeftDivCertificate">
                     <p id="contentArea">Currently, taking up “ProGrad
                         Junior Certification Program”. Links
                         to some of my projects -
@@ -170,7 +178,7 @@
                         ball, Archery, Regional Badminton
                         tornaments etc. </p>
                 </div>
-                <div>
+                <div class="proudofContainerLeftDivProject">
                     <p id="contentArea">Currently, taking up “ProGrad
                         Junior Certification Program”. Links
                         to some of my projects -
@@ -187,7 +195,7 @@
         </section>
         <section id="hustleContainer">
             <div>
-                <h1> My <br /> Side <br /> Hustle</h1>
+                <h1> My <span class="BrTagStyle"> <br /> </span> <span class="BrTagStyle"> <br /> </span> Hustle</h1>
                 <p>When I’m free, you’ll find me doing one of these. <br>
                     Honestly, I hate to laze around!</p>
             </div>
@@ -198,7 +206,7 @@
 
                 </div>
 
-                <div class="flexRight" style="margin-top:5rem">
+                <div class="flexRight">
                     <img class="imageWidth" src="./image/friends.png" />
                     <img class="imageWidth" class="imageWidth" src="./image/badminton.png" />
                     <img class="imageWidth" src="./image/reading.png" />
@@ -215,10 +223,16 @@
                 <h2> Contact </h2>
                 <p> rachel.green@gmail.com</p>
                 <div>
-                    <i class="fa-facebook"></i>
+                    <img class="iconSize" src="./image/facebook.png" alt="Facebook" />
+                    <img class="iconSize" src="./image/instagram.png" alt="Instagram" />
+                    <img class="iconSize" src="./image/youtube.png" alt="Youtube" />
                 </div>
+
             </div>
 
+        </div>
+        <div id="footerrightDiv">
+            <p> All rights reserved</p>
         </div>
     </footer>
     <script src="simple-masonry.js"></script>

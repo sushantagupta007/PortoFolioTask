@@ -1,0 +1,141 @@
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  #navContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0rem;
+  }
+  #profilePicContainer {
+    grid-template-columns: 1fr;
+  }
+  #profileDescription h1 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+  }
+
+  #eductionContainer {
+    grid-template-columns: 1fr;
+  }
+  #profileDescription {
+    padding: 0px;
+  }
+
+  #profilePicture {
+    padding: 1rem;
+    width: 280px;
+  }
+  .profile-pic {
+    width: 100%;
+  }
+  #eductionContainerLeftColumn h1 {
+    font-size: 2rem;
+    text-transform: capitalize;
+  }
+  #eductionContainerLeftColumn {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #myWorkCardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5rem;
+    padding-left: 0rem;
+    padding-top: 0rem;
+  }
+  .myWorkTitle {
+    font-size: 1rem;
+  }
+  .myWorkCardPara {
+    font-weight: normal;
+    line-height: 1rem;
+  }
+  #proudofContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #proudofContainerLeftDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0rem;
+    margin-top: 0rem;
+  }
+  #proudofContainerLeftDiv > p {
+    margin: 0rem;
+  }
+  #contentArea {
+    width: 100%;
+    height: 80px;
+
+    padding-top: 6px 0px 0px 0px;
+    margin-top: 0rem;
+    box-sizing: border-box;
+  }
+
+  #contentArea:before {
+    height: 2px;
+    width: 10%;
+  }
+  .contentAreaDiv {
+    padding: 0rem 0px;
+    margin-bottom: 0rem;
+  }
+
+  #proudofContainer {
+    margin-top: 1rem;
+  }
+  #proudofContainerRightDiv {
+    display: flex;
+    justify-content: flex-start;
+
+    margin-top: 2rem;
+  }
+  #proudofContainerRightDiv h1 {
+    font-size: 2rem;
+    padding: 0px;
+  }
+  #hustleContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0rem;
+  }
+  #hustleContainer h1 {
+    font-size: 2rem;
+  }
+  #hustleContainerRightDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0rem;
+  }
+  .leftFlexRight {
+    padding-top: 0em;
+    padding-bottom: 0rem;
+  }
+  .flexRight {
+    margin-top: 0rem;
+  }
+  .proudofContainerLeftDivCGPA {
+    height: 40px;
+  }
+  .proudofContainerLeftDivCertificate {
+    height: 120px;
+  }
+  .proudofContainerLeftDivProject {
+    margin-top: 1rem;
+  }
+  footer {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  #footerleftDiv {
+    width: 100%;
+    background-color: rgb(83, 184, 79);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  #footerrightDiv {
+    justify-content: center;
+  }
+}

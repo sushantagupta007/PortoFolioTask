@@ -85,7 +85,6 @@ body {
 }
 #eductionContainerRightColumn {
   display: flex;
-
   flex-direction: column;
   justify-content: center;
 }
@@ -205,7 +204,6 @@ body {
 }
 .contentAreaDiv {
   padding: 0px 16.5rem 0px 0px;
-
   margin-bottom: 2rem;
 }
 #proudofContainerRightDiv {
@@ -250,6 +248,7 @@ body {
 .flexRight {
   display: flex;
   flex-direction: column;
+  margin-top: 5rem;
 }
 
 .leftFlexRight {
@@ -277,6 +276,17 @@ footer {
 #footerleftDiv h2 {
   font-size: 4rem;
   margin-bottom: 0px;
+}
+
+#footerrightDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.iconSize {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
@@ -356,17 +366,11 @@ footer {
   }
 
   #contentArea:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
     height: 2px;
     width: 10%;
-    /* or 100px */
-    border-top: 5px solid rgba(25, 144, 21);
   }
   .contentAreaDiv {
-    padding: 0rem;
+    padding: 0rem 0px;
     margin-bottom: 0rem;
   }
 
@@ -399,5 +403,23 @@ footer {
   .leftFlexRight {
     padding-top: 0em;
     padding-bottom: 0rem;
+  }
+  .flexRight {
+    margin-top: 0rem;
+  }
+  .proudofContainerLeftDivCGPA {
+    height: 40px;
+  }
+  .proudofContainerLeftDivCertificate {
+    height: 120px;
+  }
+  .proudofContainerLeftDivProject {
+    margin-top: 1rem;
+  }
+  footer {
+    grid-template-columns: 1fr;
+  }
+  #footerrightDiv {
+    justify-content: center;
   }
 }
